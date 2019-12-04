@@ -1,0 +1,18 @@
+****** IMPORTANT ******
+****** READ FIRST *****
+1. Run make command to generate the tinyC exec .
+2. If the test file to be compiled is TEST.c then run the following commands
+-> ./tinyC < TEST.c > TEST.s
+-> gcc -o TEST.out TEST.s myl.c
+3. Now run the file using the command ./TEST.out
+
+
+
+So for a file TEST.c the following is the command seq- 
+-> make
+-> ./tinyC < TEST.c > TEST.s
+-> gcc -o TEST.out TEST.s myl.c
+-> ./TEST.out
+
+
+******  xxxxxxx   ******

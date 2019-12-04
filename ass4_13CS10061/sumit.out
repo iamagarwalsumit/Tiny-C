@@ -1,0 +1,39 @@
+int       type_specifier->int
+ add       declaration_specifiers->type_specifier       direct_declarator->id
+ (int       type_specifier->int
+ k       declaration_specifiers->type_specifier       direct_declarator->id
+,       declarator->direct_declarator
+       parameter_declaration->declaration_specifiers declarator       parameter_list->parameter_declaration
+int       type_specifier->int
+ l       declaration_specifiers->type_specifier       direct_declarator->id
+)       declarator->direct_declarator
+       parameter_declaration->declaration_specifiers declarator       parameter_list->parameter_list, parameter_declaration
+       parameter_type_list->parameter_list
+       direct_declarator->(parameter_type_list)
+;       declarator->direct_declarator
+       init_declarator->declarator
+       init_declarator_list->init_declarator
+       declaration->declaration_specifiers init_declarator_listopt ;
+       external_declaration->declaration
+       translation_unit->external_declaration
+
+int       type_specifier->int
+ add       declaration_specifiers->type_specifier       direct_declarator->id
+ (int       type_specifier->int
+ a       declaration_specifiers->type_specifier       direct_declarator->id
+,       declarator->direct_declarator
+       parameter_declaration->declaration_specifiers declarator       parameter_list->parameter_declaration
+int       type_specifier->int
+ b       declaration_specifiers->type_specifier       direct_declarator->id
+)       declarator->direct_declarator
+       parameter_declaration->declaration_specifiers declarator       parameter_list->parameter_list, parameter_declaration
+       parameter_type_list->parameter_list
+       direct_declarator->(parameter_type_list)
+{       declarator->direct_declarator
+
+	
+}       compound_statement->{block_item_listopt}
+       function_definition->declaration_specifiers declarator declaration_listopt compound_statement;
+       external_declaration->function_definition
+       translation_unit->translation_unit external_declaration
+

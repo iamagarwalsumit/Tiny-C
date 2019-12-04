@@ -1,0 +1,11 @@
+#ifndef MYL_H_INCLUDED
+#define MYL_H_INCLUDED
+#define ERR 1
+#define OK 0
+int prints(char *);
+int printi(int);
+int readi(int *); // *eP is for error, if the input is not an integer
+int printc(char);
+char readc(int *);
+
+#endif // MYL_H_INCLUDED
